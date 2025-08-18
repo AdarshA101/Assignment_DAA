@@ -1,0 +1,11 @@
+In this we just need to delete the nth node from the end of a linked list.
+The basic idea is that we first count how many nodes are in the list.
+Then we calculate the position of the node to delete from the start as length - n.
+
+If it is the first node, we move the head to the next node.
+
+Otherwise, we go to the node just before the one to delete and change its next pointer to skip the target node.
+This removes the required node from the list.
+
+"Time Complexity"
+We just need to traverse the nodes, Therefore Time Complexity will be O(n).
