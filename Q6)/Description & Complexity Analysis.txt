@@ -1,0 +1,7 @@
+In this we just need to check how many trains are present at the station at the same time.
+The basic idea is that for every train arrival, we count how many trains have not yet left.
+If arrival time of one train lies between arrival and departure of another train, it means both are at the station at the same time, so we need one more platform.
+Therefore we check for the maximum platforms needed at any instance of time.
+
+"Time Complexity"
+We check every train with all other trains, so the time complexity is O(n²).
