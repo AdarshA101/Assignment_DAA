@@ -1,0 +1,13 @@
+In this we just need to check if we can give correct change to every customer.
+The basic idea is that we keep track of how many 5s and 10s we have.
+
+If the customer pays with 5, we don't return anything.
+
+If the customer pays with 10, we give one 5.
+
+If the customer pays with 20, we try to give one 10 and one 5, otherwise three 5.
+
+If we cannot give any of the above possibility then we just failed.
+
+"Time Complexity"
+We only traverse once so time complexity will be O(n).
