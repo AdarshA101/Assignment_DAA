@@ -1,0 +1,8 @@
+In this we just need to check if any element comes more than n/2 times in the array.
+The basic idea is that if one element is majority, then even if we cancel it with all different elements, it will still be there at the end.
+So first we find that element as a candidate while going through the array.
+Then we again count how many times it come to confirm if it is more than n/2.
+If yes, that is the majority element. Otherwise, no majority element is there.
+
+"Time Complexity"
+We only go through the array two times, so the time complexity is O(n).
