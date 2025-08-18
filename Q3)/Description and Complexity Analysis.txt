@@ -1,0 +1,8 @@
+In this we just need to check if loop is there or not.
+So basic Idea is this is that if the last node is connected to any other node from 1st to last that means the loop is there other wise the loop is not there.
+So just write the code to do the same 
+In this is_loop()will detect that if there is loop or not and the basic idea to check if there is loop or not is that if a pointer will move to another pointer which is present already there so if they both matches we say that there is loop as we can reach the previously visited node again.
+
+"Time Complexity"
+As our main goal is to detect that there is loop or not so we just need to traverse the nodes 
+Therefore the Time Complexity should be O(n).
