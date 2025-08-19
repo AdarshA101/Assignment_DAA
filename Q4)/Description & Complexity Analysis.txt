@@ -1,0 +1,9 @@
+In this we just need to find the longest subsequence of consecutive numbers in an array.
+The basic idea is we sort the array so that all numbers come in increasing order
+Now we use two list list1 to keep track of the current consecutive subsequence list2 to store the longest subsequence till now.
+now:
+If the current element is the same as the previous one, we skip it and If the current element is exactly 1 greater than the previous, it continues the subsequence, so we add it to list1 else the consecutive sequence breaks, so we clear list1 and start a new subsequence with the current element.
+After each step, if list1 is longer than list2, we update list2 with the contents of list1.
+
+"Time Complexity"
+The array is sorted so it is in O(nlogn).Therefore the timecomplexity is O(nlogn).
