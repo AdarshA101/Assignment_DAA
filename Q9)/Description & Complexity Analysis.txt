@@ -1,0 +1,6 @@
+In this we just need to merge two sorted arrays without using extra space.
+The basic idea is we sort both arrays then we keep one pointer at the end of the first array and another at the start of the second array.
+If the element in the first array is bigger than the element in the second array, we swap them. We keep moving the pointers until they cross. Then we sort both arrays again to get the final sorted array.
+
+"Time Complexity"
+As we are using the Arrays.sort() function  which normally sort in O(nlogn). SO the time complexity should be O(nlogn).
