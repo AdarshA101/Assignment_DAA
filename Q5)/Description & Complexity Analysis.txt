@@ -1,0 +1,8 @@
+In this we just need to flatten a linked list.
+In this each node has next and child pointers.
+The basic idea is we go through each list using the next pointer.
+Then we just move child pointer and store each element in a ArrayList then after encountering null we make head = head.next to move forward then repeat the same function till we got the last element entered in the list. Then we just sort it then we call a function to make linked list from the given arraylist and then just print the flattened linkedlist.
+
+"Time Complexity"
+We move each node in x and y direction so in x let it be 'n' and in y dirction let it be 'y' and we make sorting so it would be 
+O(xlog(x)) where x = (n*m).
